@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVEGADOR*/
+
+.imagen-laika {
+  border-radius: 5px;
+  width: 8%;
+  height: 4em;
+}
+.nav-pills {
+  width: 100%;
+  background-color: rgb(186, 199, 195);
+}
+
+.nav-pills li {
+  text-align: center;
+  width: 15.32%;
+}
+.nav-link {
+  margin-top: 0.5em;
+  color: #000000;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+.nav-item:hover {
+  background-color: rgb(23, 120, 180);
+}
+.dropdown-item {
+}
+.dropdown-item:hover {
+  background-color: rgb(23, 120, 180);
+  color: #ffffff;
+  height: 2rem;
+}
+
+/*SLIDER*/
+.seccion-slider {
+  margin-top: 1rem;
+  background-image: linear-gradient(white, rgb(174, 232, 250));
+  height: 35rem;
+}
+.item {
+  display: none;
+  padding: 20px;
+  animation: aparecer 1.2s forwards;
+}
+
+.item:first-child {
+  display: flex;
+}
+
+.info {
+  padding: 20px;
+}
+.info p {
+  padding: 20px;
+}
+.seccion-slider {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#carouselExampleIndicators {
+  width: 60%;
+}
+.carousel-inner {
+  width: 100%;
+}
+.carousel-item img {
+  border-radius: 20px;
+  padding: 10px;
+  height: 35em;
+  width: 100%;
+}
+
+.texto {
+  width: 50%;
+}
+
+.footer {
+  background-color: rgb(185, 185, 185);
+  height: 6.8rem;
+  text-align: center;
+}
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+.botones #btn-primero {
+  width: 12%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(85, 92, 95);
+}
+.botones #btn-primero:hover {
+  background-color: rgb(129, 134, 139);
+  color: #ffffff;
+  transition: 0.4s;
+  font-size: 18px;
+}
+.botones #registrarse {
+  width: 12%;
+  height: 3rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: rgb(85, 92, 95);
+}
+.botones #registrarse:hover {
+  background-color: rgb(129, 134, 139);
+  color: #ffffff;
+  transition: 0.4s;
+  font-size: 18px;
+}
+
+/*VENTANA MODAL*/
+.formulario {
+  margin-top: -1rem;
+}
+.formulario #usuario {
+  width: 50%;
+  background-color: #ffffff;
+}
+.formulario #password {
+  width: 50%;
+  background-color: #ffffff;
+}
+#enviar {
+  background-color: #757474;
+}
+#enviar:hover {
+  background-color: #5f5e5e;
+}
+.modal-footer a {
+  /*el texto del link a registro no se puede mover a la izquierda*/
+}
+.modal-content {
+  background-color: rgb(185, 226, 240);
+  height: 20rem;
+  width: 80%;
+}
+.usuario {
+  margin-top: 1rem;
+}
+.contraseña {
+  margin-top: 1rem;
+}
+#link-a-registro {
+  float: right; /* Texto no se puede mover a la iazquierda*/
+}
+
+/*Pagina requisitos*/
+
+.titulo-requisitos {
+  margin-top: 1rem;
+  text-align: center;
+}
+.parrafos-requisitos {
+  padding: 20px 150px 150px 150px;
+  /* background-image: url("https://fotos.perfil.com/2018/12/12/trim/1140/641/tienen-sentimientos-los-perros-527640.jpg")
+    norepeat;*/
+}
+
+/********************************************************************************************
+Registro Usuario
+**************************************************************************/
+
+.registro-Usuario h1 {
+  text-align: center;
+  width: 40%;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.formulario-registro {
+  background-color: rgb(179, 177, 174);
+  margin-top: 1rem;
+}
+
+.registro-Usuario .form-row {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgb(179, 177, 174);
+}
+
+#submit-registro {
+  display: flex;
+  margin: 0 auto;
+  width: 5%;
+  text-align: center;
+}
